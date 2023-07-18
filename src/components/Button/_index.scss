@@ -1,0 +1,53 @@
+@use '../../assets/scss/utilities' as *;
+button {
+  outline: none;
+  border: none;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 32px;
+  background: $pure_white;
+  border: 2px solid $summer_sky;
+  color: $summer_sky;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.blue {
+  width: 121px;
+  background: $summer_sky;
+  color: $pure_white;
+}
+.white {
+  width: 119px;
+  background: $pure_white;
+  border: 2px solid $summer_sky;
+  color: $summer_sky;
+  box-sizing: border-box;
+}
+
+.disabled-button {
+  background-color: $lighter_black4;
+  color: $lignter_gray;
+  border: 2px solid $lignter_gray;
+  cursor: default;
+}
+
+.hidden-btn {
+  visibility: hidden !important;
+}
+
+.loading-add-user-btn {
+  background: $white2 !important;
+  color: $pure_black;
+  border: 2px solid $lighter_blue10 !important;
+  cursor: default;
+}
+
+.loading-disable-user-btn {
+  background: $white2;
+  color: $pure_black;
+  cursor: default;
+}

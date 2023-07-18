@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@font-face {
+  font-family: 'SST Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Roman'), url('../../fonts/SSTRg.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Condensed'), url('../../fonts/SSTRgCn.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Italic'), url('../../fonts/SSTRgIt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Light'), url('../../fonts/SSTLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Light Italic'), url('../../fonts/SSTLightIt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Medium'), url('../../fonts/SSTMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Condensed Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Condensed Medium'), url('../../fonts/SSTMediumCn.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Medium Italic'), url('../../fonts/SSTMediumIt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Bold'), url('../../fonts/SSTBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Condensed Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Condensed Bold'), url('../../fonts/SSTBoldCn.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Bold Italic'), url('../../fonts/SSTBoldIt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Heavy'), url('../../fonts/SSTHeavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SST Heavy Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SST Heavy Italic'), url('../../fonts/SSTHeavyIt.woff') format('woff');
+}
+
+* {
+  font-family: 'Roboto', 'SST Roman', sans-serif !important;
+}

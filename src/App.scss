@@ -1,0 +1,38 @@
+// File: App.scss
+// This file contains all styles related to the site/application.
+@use './assets/scss/utilities' as *;
+
+/* STYLES GO HERE */
+html * {
+  // font-family: Tajawal !important;
+}
+body {
+  background: $lighter_blue15 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-width: 4px;
+  scrollbar-color: $lighter_blue13 $lighter_blue12;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+  z-index: 120;
+}
+
+*::-webkit-scrollbar-track {
+  background: $lighter_blue12;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $lighter_blue13;
+  border-radius: 0;
+  border: 0px solid $lighter_blue12;
+}

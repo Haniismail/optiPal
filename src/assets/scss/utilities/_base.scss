@@ -1,0 +1,14 @@
+@use './variables' as *;
+
+.MuiPickersToolbar-toolbar {
+  background-color: $summer_sky !important;
+}
+.MuiTypography-colorPrimary {
+  color: $summer_sky !important;
+}
+.MuiButton-textPrimary {
+  color: $summer_sky !important;
+}
+.MuiPickersDay-daySelected {
+  background-color: $summer_sky !important;
+}

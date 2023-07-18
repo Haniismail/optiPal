@@ -1,0 +1,41 @@
+@use './variables' as *;
+
+// File: _mixins.scss
+// This file contains all styles related to the mixins of the site/application.
+
+/* STYLES GO HERE */
+@mixin mq($width, $type: min) {
+  @if $type == max {
+    $width: $width - 1px;
+  }
+  @media only screen and (#{$type}-width: $width) {
+    @content;
+  }
+}
+
+@mixin mqs($max_width, $min_width) {
+  $min_width: $min_width - 1px;
+  @media only screen and (max-width: $max_width) and (min-width: $min_width) {
+    @content;
+  }
+}
+
+@mixin z($layer) {
+  z-index: $layer;
+}
+@mixin blueButton {
+  background-color: $summer_sky;
+  color: $pure_white;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+@mixin buttonText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold !important;
+  padding: 3px 0px;
+}
